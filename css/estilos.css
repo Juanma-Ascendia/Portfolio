@@ -1,9 +1,16 @@
-*{
+/**{
 	margin: 0;
 	padding: 0;
-}
+}*/
 body{
+	margin: 0;
 	font-family: open sans,sans-serif;
+}
+/*Cabecera-------------------------------*/
+
+.cabecera{
+	height: 60px;
+	border-bottom: 1px solid #d9d9d9;
 }
 
 /*Logo-------------------------------*/
@@ -12,8 +19,14 @@ body{
 	float: left;
 }
 .logo a{
-	color: #0074d9;
+	color: #000;
     text-decoration: none;
+    padding: 25px 25px 20px 25px;
+    font-size: 19px;
+}
+.logo:hover a{
+	background-color: #dde8ee;
+	color: #336699;
 }
 
 /*Menu-------------------------------*/
@@ -21,7 +34,64 @@ body{
 .menu{
 	float: right;
 }
-.menu li{
+.menu-cabecera li{
 	list-style: none;
 	display: inline-block;
+	font-size: 13px;
+	padding-top: 5px;
+}
+.menu-cabecera a{
+	text-decoration: none;
+	color: #000;
+	padding: 25px 25px 24px 25px;
+}
+.uno:hover{
+	background-color: #dde8ee;
+	color: #336699;
+}
+.dos:hover{
+	background-color: #dde8ee;
+	color: #336699;
+}
+.tres:hover{
+	background-color: #dde8ee;
+	color: #336699;
+}
+.cuatro:hover{
+	background-color: #dde8ee;
+	color: #336699;
+}
+
+/*Contenedor-------------------------------*/
+
+.contenedor{
+	
+}
+
+.cuerpo1{
+	height: 400px;
+	border-bottom: 1px solid #d9d9d9;
+	background-color: #f2f2f2;
+	font-family: merriweather,serif;
+}
+.foto{
+	text-align: center;
+}
+.foto img{
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+}
+.texto1{
+	/*text-align: center;*/
+}
+.cuerpo2{
+	height: 500px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+/*Pié-------------------------------*/
+
+.pie{
+	height: 50px;
 }
