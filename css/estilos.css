@@ -19,7 +19,7 @@ body{
 	float: left;
 }
 .logo a{
-	color: #000;
+	color: #333333;
     text-decoration: none;
     padding: 25px 25px 20px 25px;
     font-size: 19px;
@@ -42,7 +42,7 @@ body{
 }
 .menu-cabecera a{
 	text-decoration: none;
-	color: #000;
+	color: #333333;
 	padding: 25px 25px 24px 25px;
 }
 .uno:hover{
@@ -91,7 +91,7 @@ body{
 .texto1-1 a{
 	text-decoration: none;
 	font-size: 55px;
-	color: #000;
+	color: #333333;
 }
 .texto1-1:hover a{
 	color: #336699;
@@ -116,6 +116,43 @@ body{
 .cuerpo2{
 	height: 500px;
 	border-bottom: 1px solid #d9d9d9;
+	color: #595959;
+}
+.cuerpo2-izquierda{
+	float: left;
+	width: 400px;
+	margin-left: 420px;
+	font-size: 18px;
+	margin-top: 50px;
+
+}
+.palabra{
+	text-decoration: none;
+	color: #3596cc;
+}
+.palabra:hover{
+	color: #336699;
+}
+.cuerpo2-derecha{
+	float: left;
+	width: 400px;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.cuerpo2-derecha h2{
+	padding-left: 25px;
+}
+.icons{
+	list-style: none;
+	font-size: 16px;
+
+}
+.icons a{
+	text-decoration: none;
+	color: #333333;
+}
+.a:hover{
+	color: #336699;
 }
 
 /*Pié-------------------------------*/
