@@ -4,13 +4,13 @@
 }*/
 body{
 	margin: 0;
-	font-family: Montserrat, "helvetica neue", Helvetica, Arial, sans-serif;
 }
 /*Cabecera-------------------------------*/
 
 .cabecera{
 	height: 60px;
 	border-bottom: 1px solid #d9d9d9;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*Logo-------------------------------*/
@@ -21,11 +21,11 @@ body{
 .logo a{
 	color: #333333;
     text-decoration: none;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 25px 18px 25px;
     font-size: 19px;
 }
 .logo:hover a{
-	background-color: #dde8ee;
+	background-color: #e6f7ff;
 	color: #336699;
 }
 
@@ -37,28 +37,16 @@ body{
 .menu-cabecera li{
 	list-style: none;
 	display: inline-block;
-	font-size: 13px;
+	font-size: 14px;
 	padding-top: 5px;
 }
 .menu-cabecera a{
 	text-decoration: none;
 	color: #333333;
-	padding: 25px 25px 24px 25px;
+	padding: 24px 24px 21px 24px;
 }
 .uno:hover{
-	background-color: #dde8ee;
-	color: #336699;
-}
-.dos:hover{
-	background-color: #dde8ee;
-	color: #336699;
-}
-.tres:hover{
-	background-color: #dde8ee;
-	color: #336699;
-}
-.cuatro:hover{
-	background-color: #dde8ee;
+	background-color: #e6f7ff;
 	color: #336699;
 }
 
@@ -77,12 +65,16 @@ body{
 .foto{
 	text-align: center;
 }
-.foto img{
-	border: 1px solid #d9d9d9;
+.circulo{	
 	border-radius: 50%;
-	height: 120px;
-	width: 120px;
+	height: 110px;
+	width: 110px;
 	margin-top: 50px;
+	padding: 7px;
+	border: 1px solid #d9d9d9;
+}
+.circulo:hover{
+	border: 1px solid #999999;
 }
 .texto1{
 	text-align: center;
@@ -114,17 +106,17 @@ body{
 	color: #336699;
 }
 .cuerpo2{
-	height: 500px;
+	height: 420px;
 	border-bottom: 1px solid #d9d9d9;
 	color: #595959;
 }
 .cuerpo2-izquierda{
 	float: left;
-	width: 400px;
-	margin-left: 420px;
-	font-size: 18px;
-	margin-top: 50px;
-
+	width: 380px;
+	margin-left: 400px;
+	font-size: 16px;
+	margin-top: 40px;
+	font-family: 'Merriweather', serif;
 }
 .palabra{
 	text-decoration: none;
@@ -135,12 +127,13 @@ body{
 }
 .cuerpo2-derecha{
 	float: left;
-	width: 400px;
-	font-size: 18px;
-	margin-top: 50px;
+	width: 380px;
+	font-size: 16px;
+	margin-top: 40px;
 }
 .cuerpo2-derecha h2{
 	padding-left: 25px;
+	font-family: 'Merriweather', serif;
 }
 .icons{
 	list-style: none;
@@ -158,5 +151,32 @@ body{
 /*Pié-------------------------------*/
 
 .pie{
-	height: 50px;
+	height: 30px;
+	color: #a6a6a6;
 }
+.pie p{
+	padding: 5px 0 0 15px;
+	font-size: 13px;
+}
+.pie1{
+	float: left;
+}
+.pie2{
+	float: right;
+}
+.pie2 li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 12px;
+}
+.pie2 a{
+	text-decoration: none;
+	color: #a6a6a6;
+}
+.iconos-pie:hover{
+	color: #336699;
+}
+
+
+
+
