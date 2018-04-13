@@ -4,7 +4,7 @@
 }*/
 body{
 	margin: 0;
-	font-family: open sans,sans-serif;
+	font-family: Montserrat, "helvetica neue", Helvetica, Arial, sans-serif;
 }
 /*Cabecera-------------------------------*/
 
@@ -87,6 +87,7 @@ body{
 .texto1{
 	text-align: center;
 }
+
 .texto1-1 a{
 	text-decoration: none;
 	font-size: 55px;
@@ -96,7 +97,21 @@ body{
 	color: #336699;
 }
 .texto1-2{
-	font-size: 20px;
+	font-size: 25px;
+	color: #b3b3b3;
+}
+.texto1-2 a{
+	color: #3596cc;
+	text-decoration: none;
+}
+.texto-a:hover{
+	color: #336699;
+}
+.texto-b:hover{
+	color: #336699;
+}
+.texto-c:hover{
+	color: #336699;
 }
 .cuerpo2{
 	height: 500px;
